@@ -17,12 +17,14 @@ const Details = () => {
 
   return (
     <div className="details">
-      <h1>{pet.name}</h1>
-      <h2>{`${pet.animal} - ${pet.bread} - ${pet.city}, ${pet.state}`}</h2>
+      <div>
+        <h1>{pet.name}</h1>
+        <h2>{`${pet.animal} - ${pet.bread} - ${pet.city}, ${pet.state}`}</h2>
 
-      <button>Adopt {pet.name}</button>
+        <button>Adopt {pet.name}</button>
 
-      <p>{pet.description}</p>
+        <p>{pet.description}</p>
+      </div>
     </div>
   );
 };
