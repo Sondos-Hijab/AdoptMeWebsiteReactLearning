@@ -10,6 +10,7 @@ async function fetchBreedList({ queryKey }) {
   if (!res.ok) {
     throw new Error(`breeds ${animal} fetch not ok`);
   }
+
   return res.json();
 }
 
